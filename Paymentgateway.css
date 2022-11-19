@@ -1,0 +1,53 @@
+html{
+        text-align: center;
+        margin:0px;
+        padding:0px;
+        box-sizing: border-box;
+}
+body{
+    background-image: url(https://wallpapercave.com/wp/ijo8KeK.jpg);
+}
+.donate{
+    border: none;
+    margin-top: 25%;
+    border-radius: 30px;
+    background: #ee3737;
+    color: white;
+    padding: 13px 20px 13px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px 10px rgba(0,0,0,0.2);
+    /* display:; */
+}
+.donate:hover{
+    filter: brightness(95%);
+}
+.donate:active{
+    transform: scale(0.98);
+    box-shadow: none;
+}
+.donform {
+    display: -moz-stack;
+    margin-block: 29px;
+    display: none;
+    margin-top: 15%;
+}
+input {
+    display: flexbox;
+    padding: 11px;
+    margin: 19px;
+    width: 46%;
+}
+.paybtn{
+    text-align: center;
+    padding: 6px 20px;
+    margin: auto;
+    cursor: pointer;
+}
+.paybtn:hover{
+    filter: brightness(95%);
+}
+.paybtn:active{
+    transform: scale(0.98);
+    box-shadow: none;
+}
